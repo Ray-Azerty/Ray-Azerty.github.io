@@ -2,6 +2,11 @@ body {
   font-family: "Avenir Next";
 }
 
+
+ul{
+  list-style: none;
+}
+
 .he {
   list-style: none;
   /* 以下の2行を削除してください */
@@ -15,47 +20,112 @@ body {
   height: 90px;
 }
 
+.Qr{
+  float: left;
+}
+
 .header-logo {
   float: left;
   font-size: 30px;
   padding: 20px 40px;
 }
 
-.fifty img{ width: 75%;}
+.slider{
+  float: left;
+}
 
 
 h1{
-  font-size:30px;
+  font-size:50px;
 }
 
 h2{
   font-size:20px;
 
   color: #ACB6E5;
-  background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+  background: -webkit-linear-gradient(0deg, #ffffe0, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hh{
+  color: #ACB6E5;
+  background: -webkit-linear-gradient(0deg, #7fffd4, #008080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.copy-container span{
+.sidebar{
+
+  width:100px;
+  height:500px;
+}
+
+.main-content{
+
+  margin-left: 10px;
+}
+
+.main{
+  display:flex;
+}
+
+.a{
   color:#ff4a4a;
+}
+
+.P{
+  float: left;
+  padding: 20px 10px;
+}
+
+.b{
+  color:#66cdaa;
+}
+
+.AAA{
+
+}
+
+.aa{
+  color:gold;
+}
+
+.BBB{
+  font-family: Courier;
+  border-bottom: 1px solid #333;
+}
+
+.content{
+  position:relative;
+  float: left;
+  padding-left: 50px;
+}
+
+
+.Pause-L{
+  height:150px
 }
 
 .footer{
   background-color: #008080;
   color: snow;
   height: 120px;
+  bottom: -700px;
 }
-.BasicInfo{
-  list-style: none;
-}
+
 .footer-logo {
   font-size: 30px;
+  padding: 40px 0px;
   float: left;
+   font-family: Courier;
 }
 
 .fo{
   list-style: none;
   float: right;
   padding: 15px 40px;
+}
+
+.CCC{
+  color:silver;
 }
