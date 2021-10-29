@@ -23,15 +23,6 @@ ul{
   float: left;
 }
 
-@media screen and(max-width: 800px) {
-    .content {
-    width:80px;
-    height:60px;
-    }
-    .empty{
-      height: 200px
-    }
-    }
 
 
 .header-logo {
